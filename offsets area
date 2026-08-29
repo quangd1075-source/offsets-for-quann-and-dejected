@@ -4,32 +4,32 @@
 /* Roblox External Offsets
 /* dumped by restinmygrave
 /* -------------------------------------------------------------
-/* Roblox Version : version-17d504d2c9544583
-/* Dumped At : 16:48 27/08/2026
-/* Total Offsets : 649
+/* Roblox Version : version-f5a60436d48947d3
+/* Dumped At : 18:39 28/08/2026
+/* Total Offsets : 657
 /* -------------------------------------------------------------
 /* =============================================================
 */
 #include <cstdint>
 #include <string>
 namespace Offsets {
-inline std::string ClientVersion = "version-17d504d2c9544583";
+inline std::string ClientVersion = "version-f5a60436d48947d3";
 namespace AirProperties {
-         inline constexpr uintptr_t AirDensity = 0x18;
-         inline constexpr uintptr_t GlobalWind = 0x3c;
+         inline constexpr uintptr_t AirDensity = 0x0;
+         inline constexpr uintptr_t GlobalWind = 0x0;
 }
 namespace AnimationTrack {
          inline constexpr uintptr_t Animation = 0xb8;
-         inline constexpr uintptr_t Animator = 0x108;
-         inline constexpr uintptr_t IsPlaying = 0xa50;
+         inline constexpr uintptr_t Animator = 0x110;
+         inline constexpr uintptr_t IsPlaying = 0xa58;
          inline constexpr uintptr_t Looped = 0xe5;
          inline constexpr uintptr_t Speed = 0xd4;
          inline constexpr uintptr_t TimePosition = 0xd8;
-         inline constexpr uintptr_t VTable = 0x6A46348;
+         inline constexpr uintptr_t VTable = 0x6A9F538;
 }
 namespace Animator {
-         inline constexpr uintptr_t ActiveAnimations = 0xb80;
-         inline constexpr uintptr_t VTable = 0x6A45AF0;
+         inline constexpr uintptr_t ActiveAnimations = 0xb50;
+         inline constexpr uintptr_t VTable = 0x6A9EAE8;
 }
 namespace Atmosphere {
          inline constexpr uintptr_t Color = 0xb8;
@@ -38,11 +38,11 @@ namespace Atmosphere {
          inline constexpr uintptr_t Glare = 0xd4;
          inline constexpr uintptr_t Haze = 0xd8;
          inline constexpr uintptr_t Offset = 0xdc;
-         inline constexpr uintptr_t VTable = 0x6AC49B0;
+         inline constexpr uintptr_t VTable = 0x6B1E788;
 }
 namespace Attachment {
          inline constexpr uintptr_t Position = 0xc4;
-         inline constexpr uintptr_t VTable = 0x69CAF58;
+         inline constexpr uintptr_t VTable = 0x6A23E90;
 }
 namespace BasePart {
          inline constexpr uintptr_t CastShadow = 0x135;
@@ -53,7 +53,7 @@ namespace BasePart {
          inline constexpr uintptr_t Reflectance = 0x10c;
          inline constexpr uintptr_t Shape = 0x1b9;
          inline constexpr uintptr_t Transparency = 0x130;
-         inline constexpr uintptr_t VTable = 0x69C96F0;
+         inline constexpr uintptr_t VTable = 0x6A22D00;
 }
 namespace Beam {
          inline constexpr uintptr_t Attachment0 = 0x160;
@@ -69,19 +69,19 @@ namespace Beam {
          inline constexpr uintptr_t Width0 = 0x1a8;
          inline constexpr uintptr_t Width1 = 0x1ac;
          inline constexpr uintptr_t ZOffset = 0x1b0;
-         inline constexpr uintptr_t VTable = 0x6B0B7F8;
+         inline constexpr uintptr_t VTable = 0x6B659D8;
 }
 namespace BloomEffect {
          inline constexpr uintptr_t Enabled = 0xb0;
          inline constexpr uintptr_t Intensity = 0xb8;
          inline constexpr uintptr_t Size = 0xbc;
          inline constexpr uintptr_t Threshold = 0xc0;
-         inline constexpr uintptr_t VTable = 0x6A8FAF0;
+         inline constexpr uintptr_t VTable = 0x6AE9830;
 }
 namespace BlurEffect {
          inline constexpr uintptr_t Enabled = 0xb0;
          inline constexpr uintptr_t Size = 0xb8;
-         inline constexpr uintptr_t VTable = 0x6A8F620;
+         inline constexpr uintptr_t VTable = 0x6AE9360;
 }
 namespace ByteCode {
          inline constexpr uintptr_t Pointer = 0x10;
@@ -96,52 +96,52 @@ namespace Camera {
          inline constexpr uintptr_t Rotation = 0xd8;
          inline constexpr uintptr_t Viewport = 0x28c;
          inline constexpr uintptr_t ViewportSize = 0x2cc;
-         inline constexpr uintptr_t VTable = 0x6AD2518;
+         inline constexpr uintptr_t VTable = 0x6B2C390;
 }
 namespace CharacterMesh {
          inline constexpr uintptr_t BaseTextureId = 0xc8;
          inline constexpr uintptr_t BodyPart = 0x148;
          inline constexpr uintptr_t MeshId = 0xf8;
          inline constexpr uintptr_t OverlayTextureId = 0x128;
-         inline constexpr uintptr_t VTable = 0x6A4E020;
+         inline constexpr uintptr_t VTable = 0x6AA72A8;
 }
 namespace ClickDetector {
          inline constexpr uintptr_t MaxActivationDistance = 0xe8;
          inline constexpr uintptr_t MouseIcon = 0xc8;
-         inline constexpr uintptr_t VTable = 0x6AF1CB8;
+         inline constexpr uintptr_t VTable = 0x6B4BDC0;
 }
 namespace Clothing {
          inline constexpr uintptr_t Color3 = 0x120;
          inline constexpr uintptr_t Template = 0x100;
-         inline constexpr uintptr_t VTable = 0x6A54128;
+         inline constexpr uintptr_t VTable = 0x6AAC2B8;
 }
 namespace ColorCorrectionEffect {
          inline constexpr uintptr_t Brightness = 0xc4;
          inline constexpr uintptr_t Contrast = 0xc8;
          inline constexpr uintptr_t Enabled = 0xb0;
          inline constexpr uintptr_t TintColor = 0xb8;
-         inline constexpr uintptr_t VTable = 0x6A8F150;
+         inline constexpr uintptr_t VTable = 0x6AE8E90;
 }
 namespace ColorGradingEffect {
          inline constexpr uintptr_t Enabled = 0xb0;
          inline constexpr uintptr_t TonemapperPreset = 0xb8;
-         inline constexpr uintptr_t VTable = 0x6A8EEE8;
+         inline constexpr uintptr_t VTable = 0x6AE89C0;
 }
 namespace DataModel {
-         inline constexpr uintptr_t CreatorId = 0x178;
-         inline constexpr uintptr_t GameId = 0x180;
-         inline constexpr uintptr_t GameLoaded = 0x5c0;
+         inline constexpr uintptr_t CreatorId = 0x180;
+         inline constexpr uintptr_t GameId = 0x188;
+         inline constexpr uintptr_t GameLoaded = 0x5d0;
          inline constexpr uintptr_t JobId = 0x118;
-         inline constexpr uintptr_t PlaceId = 0x188;
-         inline constexpr uintptr_t PlaceVersion = 0x1a4;
-         inline constexpr uintptr_t PrimitiveCount = 0x408;
+         inline constexpr uintptr_t PlaceId = 0x190;
+         inline constexpr uintptr_t PlaceVersion = 0x1ac;
+         inline constexpr uintptr_t PrimitiveCount = 0x418;
          inline constexpr uintptr_t ScriptContext = 0x440;
-         inline constexpr uintptr_t ServerIP = 0x5a8;
-         inline constexpr uintptr_t ToRenderView1 = 0x1c0;
+         inline constexpr uintptr_t ServerIP = 0x5b8;
+         inline constexpr uintptr_t ToRenderView1 = 0x1c8;
          inline constexpr uintptr_t ToRenderView2 = 0x8;
          inline constexpr uintptr_t ToRenderView3 = 0x28;
          inline constexpr uintptr_t Workspace = 0x158;
-         inline constexpr uintptr_t VTable = 0x6B440F0;
+         inline constexpr uintptr_t VTable = 0x6B9E2F8;
 }
 namespace DepthOfFieldEffect {
          inline constexpr uintptr_t Enabled = 0xb0;
@@ -149,7 +149,7 @@ namespace DepthOfFieldEffect {
          inline constexpr uintptr_t FocusDistance = 0xbc;
          inline constexpr uintptr_t InFocusRadius = 0xc0;
          inline constexpr uintptr_t NearIntensity = 0xc4;
-         inline constexpr uintptr_t VTable = 0x6A8E7B0;
+         inline constexpr uintptr_t VTable = 0x6AE84F0;
 }
 namespace DragDetector {
          inline constexpr uintptr_t ActivatedCursorIcon = 0x1c0;
@@ -163,14 +163,14 @@ namespace DragDetector {
          inline constexpr uintptr_t MinDragTranslation = 0x278;
          inline constexpr uintptr_t ReferenceInstance = 0x1f0;
          inline constexpr uintptr_t Responsiveness = 0x2c0;
-         inline constexpr uintptr_t VTable = 0x6B68E78;
+         inline constexpr uintptr_t VTable = 0x6BC3218;
 }
 namespace FakeDataModel {
-         inline constexpr uintptr_t Pointer = 0x8c45bf8;
-         inline constexpr uintptr_t RealDataModel = 0x1d8;
+         inline constexpr uintptr_t Pointer = 0x8ca9cc8;
+         inline constexpr uintptr_t RealDataModel = 0x1f8;
 }
 namespace FastClusterEntity {
-         inline constexpr uintptr_t VTableRva = 0x6AE4C60;
+         inline constexpr uintptr_t VTableRva = 0x6B3EC18;
          inline constexpr uintptr_t ContextPtr = 0x8;
          inline constexpr uintptr_t RenderQueueId = 0x10;
          inline constexpr uintptr_t AlphaByte = 0x14;
@@ -201,11 +201,11 @@ namespace GuiObject {
          inline constexpr uintptr_t Rotation = 0xe8;
          inline constexpr uintptr_t ScreenGui_Enabled = 0x4c4;
          inline constexpr uintptr_t Size = 0x530;
-         inline constexpr uintptr_t Text = 0xdf8;
-         inline constexpr uintptr_t TextColor3 = 0xea8;
+         inline constexpr uintptr_t Text = 0xdf0;
+         inline constexpr uintptr_t TextColor3 = 0xea0;
          inline constexpr uintptr_t Visible = 0x5ad;
          inline constexpr uintptr_t ZIndex = 0x5a4;
-         inline constexpr uintptr_t VTable = 0x6B2A8B0;
+         inline constexpr uintptr_t VTable = 0x6B84B50;
 }
 namespace Humanoid {
          inline constexpr uintptr_t AutoJumpEnabled = 0x1d4;
@@ -222,9 +222,9 @@ namespace Humanoid {
          inline constexpr uintptr_t HealthDisplayType = 0x18c;
          inline constexpr uintptr_t HipHeight = 0x194;
          inline constexpr uintptr_t HumanoidRootPart = 0x478;
-         inline constexpr uintptr_t HumanoidState = 0x898;
+         inline constexpr uintptr_t HumanoidState = 0x8c0;
          inline constexpr uintptr_t HumanoidStateID = 0x20;
-         inline constexpr uintptr_t IsWalking = 0x93f;
+         inline constexpr uintptr_t IsWalking = 0x967;
          inline constexpr uintptr_t Jump = 0x1da;
          inline constexpr uintptr_t JumpHeight = 0x1a0;
          inline constexpr uintptr_t JumpPower = 0x1a4;
@@ -246,7 +246,7 @@ namespace Humanoid {
          inline constexpr uintptr_t WalkTimer = 0x408;
          inline constexpr uintptr_t Walkspeed = 0x1d0;
          inline constexpr uintptr_t WalkspeedCheck = 0x3bc;
-         inline constexpr uintptr_t VTable = 0x6A49638;
+         inline constexpr uintptr_t VTable = 0x6AA2808;
 }
 namespace Instance {
          inline constexpr uintptr_t ChildrenEnd = 0x8;
@@ -258,7 +258,7 @@ namespace Instance {
          inline constexpr uintptr_t NameContainer = 0x70;
          inline constexpr uintptr_t Parent = 0x68;
          inline constexpr uintptr_t This = 0x8;
-         inline constexpr uintptr_t VTable = 0x6A62FF8;
+         inline constexpr uintptr_t VTable = 0x6ABD980;
 }
 namespace Lighting {
          inline constexpr uintptr_t Ambient = 0xd0;
@@ -283,13 +283,13 @@ namespace Lighting {
          inline constexpr uintptr_t Sky = 0x1c8;
          inline constexpr uintptr_t Source = 0x174;
          inline constexpr uintptr_t SunPosition = 0x178;
-         inline constexpr uintptr_t VTable = 0x6AB6048;
+         inline constexpr uintptr_t VTable = 0x6B0FCB8;
 }
 namespace LocalScript {
          inline constexpr uintptr_t ByteCode = 0x0;
          inline constexpr uintptr_t GUID = 0xd0;
          inline constexpr uintptr_t Hash = 0x1a0;
-         inline constexpr uintptr_t VTable = 0x6B4CA78;
+         inline constexpr uintptr_t VTable = 0x6BA6F80;
 }
 namespace MaterialColors {
          inline constexpr uintptr_t Asphalt = 0x30;
@@ -328,7 +328,7 @@ namespace MeshContentProvider {
          inline constexpr uintptr_t LRUCache = 0x20;
          inline constexpr uintptr_t MeshData = 0x40;
          inline constexpr uintptr_t ToMeshData = 0x40;
-         inline constexpr uintptr_t VTable = 0x6A19300;
+         inline constexpr uintptr_t VTable = 0x6A720E0;
 }
 namespace MeshData {
          inline constexpr uintptr_t FaceEnd = 0x38;
@@ -337,9 +337,9 @@ namespace MeshData {
          inline constexpr uintptr_t VertexStart = 0x0;
 }
 namespace MeshPart {
-         inline constexpr uintptr_t MeshId = 0x308;
-         inline constexpr uintptr_t Texture = 0x338;
-         inline constexpr uintptr_t VTable = 0x69BB8E8;
+         inline constexpr uintptr_t MeshId = 0x310;
+         inline constexpr uintptr_t Texture = 0x340;
+         inline constexpr uintptr_t VTable = 0x6A14608;
 }
 namespace Misc {
          inline constexpr uintptr_t Adornee = 0xf0;
@@ -356,14 +356,14 @@ namespace ModuleScript {
          inline constexpr uintptr_t GUID = 0xd0;
          inline constexpr uintptr_t Hash = 0x148;
          inline constexpr uintptr_t IsCoreScript = 0x0;
-         inline constexpr uintptr_t VTable = 0x6B4B7D8;
+         inline constexpr uintptr_t VTable = 0x6BA5F50;
 }
 namespace MouseService {
          inline constexpr uintptr_t InputObject = 0xf0;
          inline constexpr uintptr_t InputObject2 = 0x100;
          inline constexpr uintptr_t MousePosition = 0xd4;
          inline constexpr uintptr_t SensitivityPointer = 0x0;
-         inline constexpr uintptr_t VTable = 0x6AF0868;
+         inline constexpr uintptr_t VTable = 0x6B4A708;
 }
 namespace ParticleEmitter {
          inline constexpr uintptr_t Acceleration = 0x1e0;
@@ -381,7 +381,7 @@ namespace ParticleEmitter {
          inline constexpr uintptr_t TimeScale = 0x25c;
          inline constexpr uintptr_t VelocityInheritance = 0x260;
          inline constexpr uintptr_t ZOffset = 0x264;
-         inline constexpr uintptr_t VTable = 0x6AE1FE8;
+         inline constexpr uintptr_t VTable = 0x6B3BFF0;
 }
 namespace Player {
          inline constexpr uintptr_t AccountAge = 0x35c;
@@ -390,24 +390,24 @@ namespace Player {
          inline constexpr uintptr_t HealthDisplayDistance = 0x394;
          inline constexpr uintptr_t LocalPlayer = 0x130;
          inline constexpr uintptr_t LocaleId = 0x118;
-         inline constexpr uintptr_t MaxZoomDistance = 0x7e;
+         inline constexpr uintptr_t MaxZoomDistance = 0x368;
          inline constexpr uintptr_t MinZoomDistance = 0x36c;
          inline constexpr uintptr_t ModelInstance = 0x298;
-         inline constexpr uintptr_t Mouse = 0x11f0;
+         inline constexpr uintptr_t Mouse = 0x1208;
          inline constexpr uintptr_t NameDisplayDistance = 0x3a4;
          inline constexpr uintptr_t Team = 0x2d8;
          inline constexpr uintptr_t TeamColor = 0x3b0;
          inline constexpr uintptr_t UserId = 0xd0;
-         inline constexpr uintptr_t VTable = 0x6B14098;
+         inline constexpr uintptr_t VTable = 0x6B6E2F8;
 }
 namespace PlayerConfigurer {
          inline constexpr uintptr_t Pointer = 0x0;
-         inline constexpr uintptr_t VTable = 0x6B69CB0;
+         inline constexpr uintptr_t VTable = 0x6BC4158;
 }
 namespace PlayerMouse {
          inline constexpr uintptr_t Icon = 0xc8;
          inline constexpr uintptr_t Workspace = 0x150;
-         inline constexpr uintptr_t VTable = 0x6B14EC0;
+         inline constexpr uintptr_t VTable = 0x6B6F120;
 }
 namespace Primitive {
          inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
@@ -419,7 +419,7 @@ namespace Primitive {
          inline constexpr uintptr_t Rotation = 0xc8;
          inline constexpr uintptr_t Size = 0x1bc;
          inline constexpr uintptr_t Validate = 0x6;
-         inline constexpr uintptr_t VTable = 0x6943248;
+         inline constexpr uintptr_t VTable = 0x699BA20;
 }
 namespace PrimitiveFlags {
          inline constexpr uintptr_t Anchored = 0x2;
@@ -436,39 +436,39 @@ namespace ProximityPrompt {
          inline constexpr uintptr_t MaxActivationDistance = 0x128;
          inline constexpr uintptr_t ObjectText = 0xd0;
          inline constexpr uintptr_t RequiresLineOfSight = 0x137;
-         inline constexpr uintptr_t VTable = 0x6AAC550;
+         inline constexpr uintptr_t VTable = 0x6B06298;
 }
 namespace RenderJob {
          inline constexpr uintptr_t FakeDataModel = 0x38;
-         inline constexpr uintptr_t RealDataModel = 0x1d0;
+         inline constexpr uintptr_t RealDataModel = 0x1f0;
          inline constexpr uintptr_t RenderView = 0x1d8;
-         inline constexpr uintptr_t VTable = 0x6A32E30;
+         inline constexpr uintptr_t VTable = 0x6A8BDD8;
 }
 namespace RenderView {
          inline constexpr uintptr_t DeviceD3D11 = 0x8;
          inline constexpr uintptr_t LightingValid = 0x150;
          inline constexpr uintptr_t SkyValid = 0x28d;
          inline constexpr uintptr_t VisualEngine = 0x10;
-         inline constexpr uintptr_t VTable = 0x6AE0478;
+         inline constexpr uintptr_t VTable = 0x6B39CA0;
 }
 namespace RunService {
          inline constexpr uintptr_t HeartbeatFPS = 0xf4;
          inline constexpr uintptr_t HeartbeatTask = 0x3b8;
-         inline constexpr uintptr_t VTable = 0x6AD4F20;
+         inline constexpr uintptr_t VTable = 0x6B2E578;
 }
 namespace Script {
          inline constexpr uintptr_t ByteCode = 0x0;
          inline constexpr uintptr_t GUID = 0xd0;
          inline constexpr uintptr_t Hash = 0x1a0;
-         inline constexpr uintptr_t VTable = 0x6B49590;
+         inline constexpr uintptr_t VTable = 0x6BA3A20;
 }
 namespace ScriptContext {
          inline constexpr uintptr_t RequireBypass = 0x0;
-         inline constexpr uintptr_t VTable = 0x6B48520;
+         inline constexpr uintptr_t VTable = 0x6BA2A00;
 }
 namespace Seat {
          inline constexpr uintptr_t Occupant = 0x210;
-         inline constexpr uintptr_t VTable = 0x69AF6B8;
+         inline constexpr uintptr_t VTable = 0x6A07A88;
 }
 namespace Sky {
          inline constexpr uintptr_t MoonAngularSize = 0x244;
@@ -483,26 +483,26 @@ namespace Sky {
          inline constexpr uintptr_t StarCount = 0x248;
          inline constexpr uintptr_t SunAngularSize = 0x23c;
          inline constexpr uintptr_t SunTextureId = 0x218;
-         inline constexpr uintptr_t VTable = 0x6B07768;
+         inline constexpr uintptr_t VTable = 0x6B61920;
 }
 namespace Sound {
          inline constexpr uintptr_t IsPlaying = 0x140;
-         inline constexpr uintptr_t Looped = 0xad;
+         inline constexpr uintptr_t Looped = 0x13d;
          inline constexpr uintptr_t PlaybackSpeed = 0x11c;
          inline constexpr uintptr_t RollOffMaxDistance = 0x120;
          inline constexpr uintptr_t RollOffMinDistance = 0x124;
          inline constexpr uintptr_t SoundGroup = 0xe8;
          inline constexpr uintptr_t SoundId = 0xc8;
          inline constexpr uintptr_t Volume = 0x130;
-         inline constexpr uintptr_t VTable = 0x6B55890;
+         inline constexpr uintptr_t VTable = 0x6BB0108;
 }
 namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1e8;
          inline constexpr uintptr_t Enabled = 0x1e9;
          inline constexpr uintptr_t ForcefieldDuration = 0x1e0;
          inline constexpr uintptr_t Neutral = 0x1ea;
          inline constexpr uintptr_t TeamColor = 0x1e4;
-         inline constexpr uintptr_t VTable = 0x69ABBC0;
+         inline constexpr uintptr_t VTable = 0x6A046C8;
 }
 namespace SpecialMesh {
          inline constexpr uintptr_t MeshId = 0xf8;
@@ -510,7 +510,6 @@ namespace SpecialMesh {
 }
 namespace StaticPropertyTable {
          inline constexpr uintptr_t Field_0x10 = 0x10;
-         inline constexpr uintptr_t Field_0x11 = 0x11;
          inline constexpr uintptr_t Field_0x14 = 0x14;
          inline constexpr uintptr_t Field_0x18 = 0x18;
          inline constexpr uintptr_t Field_0x19 = 0x19;
@@ -527,21 +526,22 @@ namespace StaticPropertyTable {
          inline constexpr uintptr_t Field_0x25 = 0x25;
          inline constexpr uintptr_t Field_0x26 = 0x26;
          inline constexpr uintptr_t Field_0x28 = 0x28;
+         inline constexpr uintptr_t Field_0x29 = 0x29;
          inline constexpr uintptr_t Field_0x2A = 0x2A;
          inline constexpr uintptr_t Field_0x2C = 0x2C;
+         inline constexpr uintptr_t Field_0x2D = 0x2D;
          inline constexpr uintptr_t Field_0x30 = 0x30;
          inline constexpr uintptr_t Field_0x34 = 0x34;
          inline constexpr uintptr_t Field_0x38 = 0x38;
          inline constexpr uintptr_t Field_0x39 = 0x39;
          inline constexpr uintptr_t Field_0x3C = 0x3C;
          inline constexpr uintptr_t Field_0x40 = 0x40;
-         inline constexpr uintptr_t Field_0x44 = 0x44;
+         inline constexpr uintptr_t Field_0x41 = 0x41;
          inline constexpr uintptr_t Field_0x48 = 0x48;
          inline constexpr uintptr_t Field_0x4C = 0x4C;
          inline constexpr uintptr_t Field_0x50 = 0x50;
          inline constexpr uintptr_t Field_0x51 = 0x51;
          inline constexpr uintptr_t Field_0x52 = 0x52;
-         inline constexpr uintptr_t Field_0x53 = 0x53;
          inline constexpr uintptr_t Field_0x54 = 0x54;
          inline constexpr uintptr_t Field_0x58 = 0x58;
          inline constexpr uintptr_t Field_0x60 = 0x60;
@@ -559,13 +559,21 @@ namespace StaticPropertyTable {
          inline constexpr uintptr_t Field_0x8D = 0x8D;
          inline constexpr uintptr_t Field_0x90 = 0x90;
          inline constexpr uintptr_t Field_0xA0 = 0xA0;
+         inline constexpr uintptr_t Field_0xA1 = 0xA1;
+         inline constexpr uintptr_t Field_0xA2 = 0xA2;
+         inline constexpr uintptr_t Field_0xA3 = 0xA3;
+         inline constexpr uintptr_t Field_0xA4 = 0xA4;
+         inline constexpr uintptr_t Field_0xA5 = 0xA5;
+         inline constexpr uintptr_t Field_0xA6 = 0xA6;
          inline constexpr uintptr_t Field_0xA8 = 0xA8;
+         inline constexpr uintptr_t Field_0xAC = 0xAC;
          inline constexpr uintptr_t Field_0xB0 = 0xB0;
          inline constexpr uintptr_t Field_0xB8 = 0xB8;
          inline constexpr uintptr_t Field_0xC0 = 0xC0;
          inline constexpr uintptr_t Field_0xC8 = 0xC8;
          inline constexpr uintptr_t Field_0xD0 = 0xD0;
          inline constexpr uintptr_t Field_0xD8 = 0xD8;
+         inline constexpr uintptr_t Field_0xE0 = 0xE0;
          inline constexpr uintptr_t Field_0x108 = 0x108;
          inline constexpr uintptr_t Field_0x110 = 0x110;
          inline constexpr uintptr_t Field_0x118 = 0x118;
@@ -594,13 +602,13 @@ namespace StaticPropertyTable {
 }
 namespace StatsItem {
          inline constexpr uintptr_t Value = 0xc8;
-         inline constexpr uintptr_t VTable = 0x6B6A980;
+         inline constexpr uintptr_t VTable = 0x6BC4DD8;
 }
 namespace SunRaysEffect {
          inline constexpr uintptr_t Enabled = 0xb0;
          inline constexpr uintptr_t Intensity = 0xb8;
          inline constexpr uintptr_t Spread = 0xbc;
-         inline constexpr uintptr_t VTable = 0x6A8E2E0;
+         inline constexpr uintptr_t VTable = 0x6AE8020;
 }
 namespace SurfaceAppearance {
          inline constexpr uintptr_t AlphaMode = 0x1f0;
@@ -612,18 +620,18 @@ namespace SurfaceAppearance {
          inline constexpr uintptr_t MetalnessMap = 0x128;
          inline constexpr uintptr_t NormalMap = 0x158;
          inline constexpr uintptr_t RoughnessMap = 0x188;
-         inline constexpr uintptr_t VTable = 0x6AA0D20;
+         inline constexpr uintptr_t VTable = 0x6AFA8F8;
 }
 namespace TaskScheduler {
          inline constexpr uintptr_t JobEnd = 0xd0;
          inline constexpr uintptr_t JobName = 0x18;
          inline constexpr uintptr_t JobStart = 0xc8;
          inline constexpr uintptr_t MaxFPS = 0xb0;
-         inline constexpr uintptr_t Pointer = 0x89e0618;
+         inline constexpr uintptr_t Pointer = 0x8a44d68;
 }
 namespace Team {
          inline constexpr uintptr_t BrickColor = 0xb8;
-         inline constexpr uintptr_t VTable = 0x6A9EF08;
+         inline constexpr uintptr_t VTable = 0x6AF8C48;
 }
 namespace TechniqueArray {
          inline constexpr uintptr_t BeginOffset = 0x0;
@@ -632,7 +640,7 @@ namespace TechniqueArray {
 }
 namespace Terrain {
          inline constexpr uintptr_t GrassLength = 0x1e8;
-         inline constexpr uintptr_t MaterialColors = 0x490;
+         inline constexpr uintptr_t MaterialColors = 0x4b0;
          inline constexpr uintptr_t WaterColor = 0x1d8;
          inline constexpr uintptr_t WaterReflectance = 0x1f0;
          inline constexpr uintptr_t WaterTransparency = 0x1f4;
@@ -640,26 +648,26 @@ namespace Terrain {
          inline constexpr uintptr_t WaterWaveSpeed = 0x1fc;
 }
 namespace Textures {
-         inline constexpr uintptr_t Decal_Texture = 0x180;
-         inline constexpr uintptr_t Texture_Texture = 0x180;
+         inline constexpr uintptr_t Decal_Texture = 0x1b0;
+         inline constexpr uintptr_t Texture_Texture = 0x1b0;
 }
 namespace Tool {
-         inline constexpr uintptr_t CanBeDropped = 0x375;
+         inline constexpr uintptr_t CanBeDropped = 0x4b8;
          inline constexpr uintptr_t Enabled = 0x4b9;
          inline constexpr uintptr_t Grip = 0x4ac;
          inline constexpr uintptr_t ManualActivationOnly = 0x4ba;
          inline constexpr uintptr_t RequiresHandle = 0x4bb;
          inline constexpr uintptr_t TextureId = 0x360;
          inline constexpr uintptr_t Tooltip = 0x468;
-         inline constexpr uintptr_t VTable = 0x6A90790;
+         inline constexpr uintptr_t VTable = 0x6AE9FB8;
 }
 namespace UnionOperation {
-         inline constexpr uintptr_t AssetId = 0x308;
-         inline constexpr uintptr_t VTable = 0x69B76C0;
+         inline constexpr uintptr_t AssetId = 0x310;
+         inline constexpr uintptr_t VTable = 0x6A0FCC8;
 }
 namespace UserInputService {
          inline constexpr uintptr_t WindowInputState = 0x2c0;
-         inline constexpr uintptr_t VTable = 0x6AEEF88;
+         inline constexpr uintptr_t VTable = 0x6B49308;
 }
 namespace VehicleSeat {
          inline constexpr uintptr_t MaxSpeed = 0x228;
@@ -667,127 +675,127 @@ namespace VehicleSeat {
          inline constexpr uintptr_t ThrottleFloat = 0x230;
          inline constexpr uintptr_t Torque = 0x234;
          inline constexpr uintptr_t TurnSpeed = 0x238;
-         inline constexpr uintptr_t VTable = 0x69A6CC0;
+         inline constexpr uintptr_t VTable = 0x69FEDA8;
 }
 namespace VisualEngine {
          inline constexpr uintptr_t Dimensions = 0xae0;
          inline constexpr uintptr_t FakeDataModel = 0xac0;
-         inline constexpr uintptr_t Pointer = 0x8282058;
+         inline constexpr uintptr_t Pointer = 0x82e2128;
          inline constexpr uintptr_t RenderView = 0xc00;
          inline constexpr uintptr_t ViewMatrix = 0x180;
-         inline constexpr uintptr_t VTable = 0x6AE0D10;
+         inline constexpr uintptr_t VTable = 0x6B3AA28;
 }
 namespace Vtables {
-         inline constexpr uintptr_t AlignOrientation = 0x69CCCB0;
-         inline constexpr uintptr_t AlignPosition = 0x69CC848;
-         inline constexpr uintptr_t AppStorageService = 0x6B1DE08;
-         inline constexpr uintptr_t AvatarEditorService = 0x6A4D180;
-         inline constexpr uintptr_t BadgeService = 0x6AC4738;
-         inline constexpr uintptr_t BindableEvent = 0x6AC31F0;
-         inline constexpr uintptr_t BindableFunction = 0x6AC3458;
-         inline constexpr uintptr_t BodyAngularVelocity = 0x6B0DA00;
-         inline constexpr uintptr_t BodyGyro = 0x6B0FCF0;
-         inline constexpr uintptr_t BodyPosition = 0x6B0E5E8;
-         inline constexpr uintptr_t BodyVelocity = 0x6B0E920;
-         inline constexpr uintptr_t CanvasGroup = 0x6B3FC10;
-         inline constexpr uintptr_t Clouds = 0x6B0B310;
-         inline constexpr uintptr_t CollectionService = 0x6AC1BE0;
-         inline constexpr uintptr_t Color3 = 0x6B52160;
-         inline constexpr uintptr_t Color3Value = 0x6B20B18;
-         inline constexpr uintptr_t Configuration = 0x6AC0A28;
-         inline constexpr uintptr_t ContentProvider = 0x6A1D160;
-         inline constexpr uintptr_t ContextActionService = 0x6B43508;
-         inline constexpr uintptr_t DataStoreService = 0x6B1B718;
-         inline constexpr uintptr_t DebugSettings = 0x6A9F698;
-         inline constexpr uintptr_t Decal = 0x6B04078;
-         inline constexpr uintptr_t DoubleConstrainedValue = 0x6B203C0;
-         inline constexpr uintptr_t Enum = 0x6BB03A0;
-         inline constexpr uintptr_t Event = 0x6A8ACD0;
-         inline constexpr uintptr_t Explosion = 0x69C60C0;
-         inline constexpr uintptr_t Fire = 0x6B0ABB0;
-         inline constexpr uintptr_t Folder = 0x6A8D840;
-         inline constexpr uintptr_t ForceField = 0x69C38D0;
-         inline constexpr uintptr_t Frame = 0x6B3D418;
-         inline constexpr uintptr_t FriendService = 0x6A95F78;
-         inline constexpr uintptr_t GamePassService = 0x6A25A58;
-         inline constexpr uintptr_t GeometryService = 0x6AE98F8;
-         inline constexpr uintptr_t Glue = 0x69C13E0;
-         inline constexpr uintptr_t GroupService = 0x6ABADC0;
-         inline constexpr uintptr_t GuiButton = 0x6B3CE28;
-         inline constexpr uintptr_t GuiService = 0x6B24DD8;
-         inline constexpr uintptr_t Highlight = 0x6B08D60;
-         inline constexpr uintptr_t HingeConstraint = 0x69C2B68;
-         inline constexpr uintptr_t HttpService = 0x6AF4928;
-         inline constexpr uintptr_t HumanoidDescription = 0x6A49E58;
-         inline constexpr uintptr_t ImageLabel = 0x6B3AC98;
-         inline constexpr uintptr_t InsertService = 0x6ADC438;
-         inline constexpr uintptr_t IntConstrainedValue = 0x6B203A0;
-         inline constexpr uintptr_t IntValue = 0x6B1FC58;
-         inline constexpr uintptr_t LineForce = 0x69BCBF8;
-         inline constexpr uintptr_t LocalizationService = 0x6A2D4A8;
-         inline constexpr uintptr_t ManualWeld = 0x69C22B8;
-         inline constexpr uintptr_t MarketplaceService = 0x6A245F0;
-         inline constexpr uintptr_t MessagingService = 0x6AB1A30;
-         inline constexpr uintptr_t Motor = 0x69C0248;
-         inline constexpr uintptr_t Motor6D = 0x69BFB08;
-         inline constexpr uintptr_t ObjectValue = 0x6B1F018;
-         inline constexpr uintptr_t Part = 0x69B9848;
-         inline constexpr uintptr_t PermissionsService = 0x6AAEFA0;
-         inline constexpr uintptr_t PhysicsService = 0x69B42E8;
-         inline constexpr uintptr_t PlayerGui = 0x6B348B0;
-         inline constexpr uintptr_t Players = 0x6B12310;
-         inline constexpr uintptr_t PointLight = 0x6B04B78;
-         inline constexpr uintptr_t PointsService = 0x6AADBE8;
-         inline constexpr uintptr_t PolicyService = 0x6A2B308;
-         inline constexpr uintptr_t Ragdoll = 0x6A5DC10;
-         inline constexpr uintptr_t RemoteEvent = 0x6ADA6E0;
-         inline constexpr uintptr_t RemoteFunction = 0x6ADA478;
-         inline constexpr uintptr_t ReplicatedFirst = 0x6AAB370;
-         inline constexpr uintptr_t ReplicatedStorage = 0x6B18300;
-         inline constexpr uintptr_t RopeConstraint = 0x69B04C0;
-         inline constexpr uintptr_t ScreenGui = 0x6B36860;
-         inline constexpr uintptr_t ScrollingFrame = 0x6B35C18;
-         inline constexpr uintptr_t SelectionBox = 0x6AA95F0;
-         inline constexpr uintptr_t SelectionLasso = 0x6AA85D0;
-         inline constexpr uintptr_t SelectionSphere = 0x6AA7BD0;
-         inline constexpr uintptr_t ServerScriptService = 0x6AA6C30;
-         inline constexpr uintptr_t ServerStorage = 0x6B17158;
-         inline constexpr uintptr_t Smoke = 0x6B07238;
-         inline constexpr uintptr_t Snap = 0x69C0B10;
-         inline constexpr uintptr_t SocialService = 0x6AD8F00;
-         inline constexpr uintptr_t SoundService = 0x6B55550;
-         inline constexpr uintptr_t Sparkles = 0x6AA3A40;
-         inline constexpr uintptr_t SphereHandleAdornment = 0x6A94FE0;
-         inline constexpr uintptr_t SpotLight = 0x6B05800;
-         inline constexpr uintptr_t SpringConstraint = 0x69AAD18;
-         inline constexpr uintptr_t StarterCharacterScripts = 0x6B131C8;
-         inline constexpr uintptr_t Stats = 0x6B70618;
-         inline constexpr uintptr_t StringValue = 0x6B1E8D0;
-         inline constexpr uintptr_t SurfaceGui = 0x6B26B90;
-         inline constexpr uintptr_t SurfaceLight = 0x6B05820;
-         inline constexpr uintptr_t TeleportService = 0x6AD7248;
-         inline constexpr uintptr_t TestService = 0x6AD55A8;
-         inline constexpr uintptr_t TextBox = 0x6B26048;
-         inline constexpr uintptr_t TextChatService = 0x6B7EC20;
-         inline constexpr uintptr_t TextLabel = 0x6B28550;
-         inline constexpr uintptr_t Texture = 0x6A7D6F8;
-         inline constexpr uintptr_t Torque = 0x69A9DA0;
-         inline constexpr uintptr_t Trail = 0x6B02E58;
-         inline constexpr uintptr_t TweenService = 0x6B82DA8;
-         inline constexpr uintptr_t VelocityMotor = 0x69C4FD0;
-         inline constexpr uintptr_t VideoFrame = 0x6B228A0;
-         inline constexpr uintptr_t ViewportFrame = 0x6B291D8;
-         inline constexpr uintptr_t VRService = 0x6A91308;
+         inline constexpr uintptr_t AlignOrientation = 0x6A25CD8;
+         inline constexpr uintptr_t AlignPosition = 0x6A25270;
+         inline constexpr uintptr_t AppStorageService = 0x6B77DF0;
+         inline constexpr uintptr_t AvatarEditorService = 0x6AA7000;
+         inline constexpr uintptr_t BadgeService = 0x6B1E040;
+         inline constexpr uintptr_t BindableEvent = 0x6B1D700;
+         inline constexpr uintptr_t BindableFunction = 0x6B1D498;
+         inline constexpr uintptr_t BodyAngularVelocity = 0x6B679B0;
+         inline constexpr uintptr_t BodyGyro = 0x6B68370;
+         inline constexpr uintptr_t BodyPosition = 0x6B67260;
+         inline constexpr uintptr_t BodyVelocity = 0x6B676B8;
+         inline constexpr uintptr_t CanvasGroup = 0x6B9A5D8;
+         inline constexpr uintptr_t Clouds = 0x6B65508;
+         inline constexpr uintptr_t CollectionService = 0x6B1B9D0;
+         inline constexpr uintptr_t Color3 = 0x6BAC640;
+         inline constexpr uintptr_t Color3Value = 0x6B7AFE0;
+         inline constexpr uintptr_t Configuration = 0x6B1AA68;
+         inline constexpr uintptr_t ContentProvider = 0x6A76180;
+         inline constexpr uintptr_t ContextActionService = 0x6B9D9F0;
+         inline constexpr uintptr_t DataStoreService = 0x6B759F8;
+         inline constexpr uintptr_t DebugSettings = 0x6AFA000;
+         inline constexpr uintptr_t Decal = 0x6B5DF08;
+         inline constexpr uintptr_t DoubleConstrainedValue = 0x6B7A8A8;
+         inline constexpr uintptr_t Enum = 0x6C0A370;
+         inline constexpr uintptr_t Event = 0x6AE4AD0;
+         inline constexpr uintptr_t Explosion = 0x6A1EE20;
+         inline constexpr uintptr_t Fire = 0x6B65020;
+         inline constexpr uintptr_t Folder = 0x6AE70C8;
+         inline constexpr uintptr_t ForceField = 0x6A1C5B8;
+         inline constexpr uintptr_t Frame = 0x6B97720;
+         inline constexpr uintptr_t FriendService = 0x6AEFF20;
+         inline constexpr uintptr_t GamePassService = 0x6A7EA78;
+         inline constexpr uintptr_t GeometryService = 0x6B43990;
+         inline constexpr uintptr_t Glue = 0x6A18D58;
+         inline constexpr uintptr_t GroupService = 0x6B14B40;
+         inline constexpr uintptr_t GuiButton = 0x6B96898;
+         inline constexpr uintptr_t GuiService = 0x6B7F038;
+         inline constexpr uintptr_t Highlight = 0x6B631E8;
+         inline constexpr uintptr_t HingeConstraint = 0x6A1B438;
+         inline constexpr uintptr_t HttpService = 0x6B4EC88;
+         inline constexpr uintptr_t HumanoidDescription = 0x6AA3070;
+         inline constexpr uintptr_t ImageLabel = 0x6B94E18;
+         inline constexpr uintptr_t InsertService = 0x6B362A0;
+         inline constexpr uintptr_t IntConstrainedValue = 0x6B7A3B8;
+         inline constexpr uintptr_t IntValue = 0x6B79EC8;
+         inline constexpr uintptr_t LineForce = 0x6A159A8;
+         inline constexpr uintptr_t LocalizationService = 0x6A86430;
+         inline constexpr uintptr_t ManualWeld = 0x6A192D0;
+         inline constexpr uintptr_t MarketplaceService = 0x6A7D600;
+         inline constexpr uintptr_t MessagingService = 0x6B0B9E0;
+         inline constexpr uintptr_t Motor = 0x6A1A090;
+         inline constexpr uintptr_t Motor6D = 0x6A1A438;
+         inline constexpr uintptr_t ObjectValue = 0x6B78D98;
+         inline constexpr uintptr_t Part = 0x6A11C28;
+         inline constexpr uintptr_t PermissionsService = 0x6B08A80;
+         inline constexpr uintptr_t PhysicsService = 0x6A0CE70;
+         inline constexpr uintptr_t PlayerGui = 0x6B8F318;
+         inline constexpr uintptr_t Players = 0x6B6C4D0;
+         inline constexpr uintptr_t PointLight = 0x6B5F270;
+         inline constexpr uintptr_t PointsService = 0x6B07B98;
+         inline constexpr uintptr_t PolicyService = 0x6A83F80;
+         inline constexpr uintptr_t Ragdoll = 0x6AB6E18;
+         inline constexpr uintptr_t RemoteEvent = 0x6B344A0;
+         inline constexpr uintptr_t RemoteFunction = 0x6B33E80;
+         inline constexpr uintptr_t ReplicatedFirst = 0x6B04E50;
+         inline constexpr uintptr_t ReplicatedStorage = 0x6B725A0;
+         inline constexpr uintptr_t RopeConstraint = 0x6A093E8;
+         inline constexpr uintptr_t ScreenGui = 0x6B90AB0;
+         inline constexpr uintptr_t ScrollingFrame = 0x6B8F950;
+         inline constexpr uintptr_t SelectionBox = 0x6B03638;
+         inline constexpr uintptr_t SelectionLasso = 0x6B02000;
+         inline constexpr uintptr_t SelectionSphere = 0x6B01C60;
+         inline constexpr uintptr_t ServerScriptService = 0x6B006E8;
+         inline constexpr uintptr_t ServerStorage = 0x6B718C8;
+         inline constexpr uintptr_t Smoke = 0x6B61400;
+         inline constexpr uintptr_t Snap = 0x6A1AFE0;
+         inline constexpr uintptr_t SocialService = 0x6B32CC0;
+         inline constexpr uintptr_t SoundService = 0x6BAFA00;
+         inline constexpr uintptr_t Sparkles = 0x6AFD508;
+         inline constexpr uintptr_t SphereHandleAdornment = 0x6AEBEF8;
+         inline constexpr uintptr_t SpotLight = 0x6B5F750;
+         inline constexpr uintptr_t SpringConstraint = 0x6A03760;
+         inline constexpr uintptr_t StarterCharacterScripts = 0x6B6D1C0;
+         inline constexpr uintptr_t Stats = 0x6BCAA68;
+         inline constexpr uintptr_t StringValue = 0x6B78DB0;
+         inline constexpr uintptr_t SurfaceGui = 0x6B81938;
+         inline constexpr uintptr_t SurfaceLight = 0x6B5F770;
+         inline constexpr uintptr_t TeleportService = 0x6B30B28;
+         inline constexpr uintptr_t TestService = 0x6B2F480;
+         inline constexpr uintptr_t TextBox = 0x6B7FEE8;
+         inline constexpr uintptr_t TextChatService = 0x6BD93D0;
+         inline constexpr uintptr_t TextLabel = 0x6B821F8;
+         inline constexpr uintptr_t Texture = 0x6AD6B70;
+         inline constexpr uintptr_t Torque = 0x6A021D0;
+         inline constexpr uintptr_t Trail = 0x6B5CFE8;
+         inline constexpr uintptr_t TweenService = 0x6BDD550;
+         inline constexpr uintptr_t VelocityMotor = 0x6A1D1C8;
+         inline constexpr uintptr_t VideoFrame = 0x6B7CDF8;
+         inline constexpr uintptr_t ViewportFrame = 0x6B82EF8;
+         inline constexpr uintptr_t VRService = 0x6AEB038;
 }
 namespace Weld {
          inline constexpr uintptr_t Part0 = 0x118;
          inline constexpr uintptr_t Part1 = 0x128;
-         inline constexpr uintptr_t VTable = 0x69C1A38;
+         inline constexpr uintptr_t VTable = 0x6A1ACF0;
 }
 namespace WeldConstraint {
          inline constexpr uintptr_t Part0 = 0xb8;
          inline constexpr uintptr_t Part1 = 0xc8;
-         inline constexpr uintptr_t VTable = 0x69A4EB0;
+         inline constexpr uintptr_t VTable = 0x69FD6A0;
 }
 namespace WindowInputState {
          inline constexpr uintptr_t CapsLock = 0x40;
@@ -797,18 +805,18 @@ namespace Workspace {
          inline constexpr uintptr_t CurrentCamera = 0x498;
          inline constexpr uintptr_t DistributedGameTime = 0x4b8;
          inline constexpr uintptr_t ReadOnlyGravity = 0x9c8;
-         inline constexpr uintptr_t World = 0x3f0;
-         inline constexpr uintptr_t VTable = 0x6AD38F0;
+         inline constexpr uintptr_t World = 0x368;
+         inline constexpr uintptr_t VTable = 0x6B2DB78;
 }
 namespace World {
-         inline constexpr uintptr_t AirProperties = 0x220;
-         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x208;
-         inline constexpr uintptr_t Gravity = 0x210;
-         inline constexpr uintptr_t Primitives = 0x290;
-         inline constexpr uintptr_t worldStepsPerSec = 0x708;
+         inline constexpr uintptr_t AirProperties = 0x0;
+         inline constexpr uintptr_t FallenPartsDestroyHeight = 0x0;
+         inline constexpr uintptr_t Gravity = 0x1b4;
+         inline constexpr uintptr_t Primitives = 0x0;
+         inline constexpr uintptr_t worldStepsPerSec = 0x0;
 }
 namespace WorldRoot {
-         inline constexpr uintptr_t RaycastBoundDesc = 0x8024FD0;
+         inline constexpr uintptr_t RaycastBoundDesc = 0x8089F20;
          inline constexpr uintptr_t RaycastBoundFn = 0x80;
 }
 }
